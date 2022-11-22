@@ -27,3 +27,47 @@
 [grid-template](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template)
 [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
 [grid-template-rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows)
+
+## Fraction Unit (fr)
+
+- Represents a fraction of the available space in the grid container
+
+## Minmax function
+
+[minmax](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax)
+
+- Defines a size range >= to min and <= to max
+- example:
+
+```css
+grid-template-rows: 1fr minmax(10em, 20em) 1fr;
+```
+
+## repeat() Notation
+
+[ref](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat)
+
+## Automatic placing
+
+- By default the items inside a container are being positioned from top left to bottom right unless otherwise indicated
+
+## Manual grid item placement
+
+### grid-row and grid-column
+
+- places the items delimited by the lines indicated
+  - example:
+
+```css
+/* places the element from line 2 to line 4 in horizontal and from line 2 to line 3 in the vertical */
+grid-column: 2/4;
+grid-row: 2/3;
+```
+
+## Implicit lines
+
+- If grid item placement requires additional columns or rows to be created, the browser adds implicit lines to keep the grid structurally sound.
+
+## span Keyword
+
+- The span keyword is used to define how many grid tracks an element should span.
