@@ -6,6 +6,8 @@
     "title title title"
     "main . masthead"
     "main sidebar footer";
+  /* shorthand for column and row gaps */
+  grid-gap: 0.5em 1em;
 }
 
 @media screen and (max-width: 600px) {

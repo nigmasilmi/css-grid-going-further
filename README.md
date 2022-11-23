@@ -119,3 +119,9 @@ grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge
     grid-area: masthead;
   }
   ```
+
+## Grid gap (alias for gap)
+
+[ref](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
+
+" So in short, grid-gap creates space between each column or row inside your layouts, while at the same time respecting any item that spans across multiple rows, multiple columns, or is displayed inside a grid area. "
