@@ -91,3 +91,31 @@ grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge
   /* is the same as */
   grid-column: main-end/sidebar;
   ```
+
+## Grid Areas
+
+### grid-template-areas
+
+[ref](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
+
+- it is applied to a grid container
+- uses a text-based grid map to apply grid area neames to individual cells
+
+- First we "paint" our layout with text, giving names to each area using the property grid-template-areas
+  -example:
+
+  ```css
+  grid-template-areas:
+    "title title title"
+    "main masthead masthead"
+    "main sidebar footer";
+  ```
+
+  - Then we assign the area for each element in the css rules using the property grid-area
+    [grid area ref](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area)
+
+  ```css
+  .masthead {
+    grid-area: masthead;
+  }
+  ```
