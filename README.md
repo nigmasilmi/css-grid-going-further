@@ -125,3 +125,59 @@ grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge
 [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
 
 " So in short, grid-gap creates space between each column or row inside your layouts, while at the same time respecting any item that spans across multiple rows, multiple columns, or is displayed inside a grid area. "
+
+## Planning For Grid Layouts
+
+### CSS Grid Means Rethinking Web Layouts
+
+" Using CSS Grid introduces a whole new approach to web layouts and web design. We are now working from the outside in. Start with a grid, then place our contents on that grid. This in turn requires us to think carefully about the relationships between different items of content, both from an HTML semantics perspective, from a communication perspective, and from a layout and design perspective. "
+
+### CSS Grid Features: Grid Items
+
+- Only direct first-level descendants of the grid container
+- Second level descendatns need their own grid
+- Subgrids are not supported
+- Don't flatten your HTML, rather embrace Nested Grids
+
+### CSS Grid Features: True Grid
+
+- Avoid Masonry styles
+- Think in tracks and then place the elements in it
+
+### CSS Grid Features: Grid Stacking
+
+- Elements can be placed anywhere in the grid including placing one item on top of another
+- Items are stacked according to the HTML source order
+- Items can be reordered using the z-index property
+
+### CSS Grid Features: Content Order
+
+- Manual placement is not impacted by the source order
+- Make sure the visible content order matches the source content order to preserve mainingful communication
+
+### CSS Grid Features: Pure CSS Grids
+
+- Grids are defined using pure CSS
+- Grids can be nested inside media queries
+- Grids can be applied conditionally
+- Grids can be added, changes, or removed without affecting the HTML
+
+## Start your Layouts with pen and paper
+
+1. Make mobile-first layouts drafts to map out the relationships between items
+2. Draw grid lines to identify columns, rows, cells and grid areas
+3. Break grid apart to identify where nesting is needed
+4. Repeat the process for each content model/view
+
+## Backward Compatibility Options
+
+- Build full-fledged fallbacks for all browsers
+- Use a mobile-first layout for all browsers
+- Use CSS Grid and rely on block-level fallbacks
+
+## Accessibility First
+
+- CSS Grid allows us to simplify HTM by reducing container nesting and separating semantic order from displayed order
+- Changing the displayed order of contents can change their meaning, so use this feature with care
+
+=> make it accesible first, then fancy, then make sure that fancy doesn't break accessibility <=
