@@ -71,3 +71,12 @@ grid-row: 2/3;
 ## span Keyword
 
 - The span keyword is used to define how many grid tracks an element should span.
+
+## Named lines
+
+- the name of the lines are wrapped by square brackets
+- use hyphons and not spaces
+
+```css
+grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge];
+```
