@@ -8,6 +8,17 @@
     "main sidebar footer";
 }
 
+@media screen and (min-width: 600px) {
+  .site {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title title"
+      "main masthead"
+      "main sidebar"
+      "footer footer";
+  }
+}
+
 .masthead {
   grid-area: masthead;
 }
