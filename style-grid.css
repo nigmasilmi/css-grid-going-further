@@ -5,22 +5,22 @@
 }
 
 .masthead {
-  grid-column: main-end/sidebar-end;
+  grid-column: main-end/sidebar;
   grid-row: 2/3;
 }
 
 .page-title {
-  grid-column: main-start/sidebar-end;
+  grid-column: main/sidebar;
   grid-row: 1/2;
 }
 
 .sidebar {
-  grid-column: sidebar-start/sidebar-end;
+  grid-column: main-end/sidebar;
   grid-row: 3/4;
 }
 
 .main-content {
-  grid-column: main-start/main-end;
+  grid-column: main;
   grid-row: 2/4;
 }
 

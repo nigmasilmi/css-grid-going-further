@@ -80,3 +80,14 @@ grid-row: 2/3;
 ```css
 grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge];
 ```
+
+## Named lines shorthand
+
+- If you are refering to the whole span between lines with the same prefix but different suffix (main-start vs. main-end), you can use the prefix without the suffix.
+  -example:
+
+  ```css
+  grid-column: main-end/sidebar-end;
+  /* is the same as */
+  grid-column: main-end/sidebar;
+  ```
