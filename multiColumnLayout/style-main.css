@@ -341,6 +341,10 @@ CSS Grid layout for modern browsers:
       grid-column: 1/4;
     }
 
+    .twin:last-of-type {
+      grid-column: 3/4;
+    }
+
     .colophon {
       grid-column: 1/4;
     }
