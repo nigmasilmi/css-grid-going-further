@@ -188,3 +188,4 @@ grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge
 - What if we want to separate those two parts and in certain viewport widths, place one at each side?
 - The answer is: we make the sidebar a grid container (with inheritance)
 - then make the sidebar span the original width
+- To solve the issue of empty space between sidebar sections in opposite sides: set the height of the new grid item. Exploit the way the browser bahaves, set height of the new grid container (sidebar) to be 0 height and let the browser show it because we haven't set a rul to overflow hidden.
