@@ -183,3 +183,8 @@ grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge
 => make it accesible first, then fancy, then make sure that fancy doesn't break accessibility <=
 
 ## Using white space to perform magic
+
+- We have a sidebar with two parts belonging to a specific grid item
+- What if we want to separate those two parts and in certain viewport widths, place one at each side?
+- The answer is: we make the sidebar a grid container (with inheritance)
+- then make the sidebar span the original width
