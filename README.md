@@ -181,3 +181,5 @@ grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge
 - Changing the displayed order of contents can change their meaning, so use this feature with care
 
 => make it accesible first, then fancy, then make sure that fancy doesn't break accessibility <=
+
+## Using white space to perform magic
