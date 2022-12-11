@@ -197,3 +197,15 @@ grid-template-columns: [left-edge] 2fr [middle-1] 1fr [middle-2] 1fr [right edge
 The full-bleed single column layout features sections and images that span the full width of the view port, thereof full-bleed, and the contents within each section are center-aligned with a max width. Doing this without CSS Grid requires a lot of extra container nesting and can be quite messy on the HTML site.
 
 Technically what we're looking for in this layout is a four-column grid where full-bleed content takes up all four columns and the centered content takes up the two middle columns. The problem is, we can't use a single global grid to do this because the grid items would be the individual sections and we would have no way of aligning the contents within those sections to the grid. So, what do we do? The solution is to apply the same grid to each section, effectively making a list of matching grids. That way we can align the contents within each section to the grid since they are grid items, while at the same time controlling the overall layout because all the grids are controlled using the same CSS rule.
+
+## Card Layouts
+
+Preserve the visual consistency even if they display different content
+
+### Text-based cards
+
+- starting with a full bleed card layout as fallback
+
+### super-imposed text cards
+
+### advance card layout
