@@ -206,6 +206,8 @@ Preserve the visual consistency even if they display different content
 
 - starting with a full bleed card layout as fallback
 
-### super-imposed text cards
+### super-imposed text cards / image based cards
+
+[figure element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
 
 ### advance card layout
