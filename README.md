@@ -211,3 +211,9 @@ Preserve the visual consistency even if they display different content
 [figure element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
 
 ### advanced card layout - magazine style
+
+# Accesible Off-Screen Navigation Layouts
+
+## slide-in on top
+
+## slides-in, shifting the content to the right
