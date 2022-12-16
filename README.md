@@ -210,4 +210,4 @@ Preserve the visual consistency even if they display different content
 
 [figure element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
 
-### advance card layout
+### advanced card layout - magazine style
