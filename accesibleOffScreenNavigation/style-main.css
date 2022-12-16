@@ -352,4 +352,14 @@ CSS Grid layout for wider screens, when browser supports grid:
       display: block;
     }
   }
+
+  @media screen and (min-width: 78em) {
+    .site {
+      grid-template-columns: auto 15em;
+      grid-template-areas:
+        "header header"
+        "main sidebar"
+        "footer footer";
+    }
+  }
 }
