@@ -314,6 +314,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 
     .main-nav {
       position: relative;
+      left: -13em;
       width: 12em;
       grid-column: 1;
       grid-row: 1/5;
@@ -327,7 +328,8 @@ CSS Grid layout for wider screens, when browser supports grid:
       position: fixed;
       display: block;
       top: 1.3em;
-      left: 14.5em;
+      left: 0.2em;
+      /* left: 14.5em; */
     }
 
     .cards {
