@@ -212,8 +212,12 @@ Preserve the visual consistency even if they display different content
 
 ### advanced card layout - magazine style
 
-# Accesible Off-Screen Navigation Layouts
+## Accesible Off-Screen Navigation Layouts
 
-## slide-in on top
+### slide-in on top
 
-## slides-in, shifting the content to the right
+- accesibleOffScreenNavigation/
+
+### slides-in, shifting the content to the right
+
+- accesibleOverflowingNavigation/
