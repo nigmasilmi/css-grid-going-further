@@ -221,3 +221,4 @@ Preserve the visual consistency even if they display different content
 ### slides-in, shifting the content to the right
 
 - accesibleOverflowingNavigation/
+- [transitionend event used to hide the list elements aproppriately](https://developer.mozilla.org/en-US/docs/Web/API/Element/transitionend_event)
